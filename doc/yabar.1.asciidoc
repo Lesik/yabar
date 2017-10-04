@@ -338,6 +338,12 @@ internal-option3 : " "; # characters to display when sound is on or off (s
 internal-suffix: "%";
 ----
 
+* *YABAR_SONG* - *Current Song*: Uses 'playerctl' to retrieve the name of the currently played song. Example:
+----
+exec: "YABAR_SONG";
+internal-option1: "spotify";
+----
+
 * *YABAR_WIFI* - *Wifi*: Displays the SSID of the WiFi AP and the strength in percent. Example:
 ----
 exec: "YABAR_WIFI";
